@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  ViewController3.swift
 //  Peach 2.0
 //
 //  Created by SHCH on 05.02.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
+class ViewController3: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +26,10 @@ class ViewController2: UIViewController {
     }
     */
 
-    @IBAction func btnGoBack(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    @IBAction func btnToTheEnd(_ sender: UIButton) {
+    @IBAction func btnDamn(_ sender: UIButton) {
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "ViewController3") as! ViewController3
+        let vc = sb.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         self.navigationController?.pushViewController(vc, animated: true)
+
     }
 }

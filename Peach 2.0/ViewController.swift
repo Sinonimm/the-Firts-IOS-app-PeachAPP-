@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnChageNamePress(_ sender: UIButton) {
-        lblTitle.text = "BARABARA"
+        lblTitle.text = "YUMMY"
     }
 
     @IBAction func btnGoNext(_ sender: UIButton) {
