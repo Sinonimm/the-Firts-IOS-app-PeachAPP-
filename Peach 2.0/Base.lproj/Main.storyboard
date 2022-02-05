@@ -32,6 +32,23 @@
                                 <color key="textColor" red="0.75686274509999996" green="0.87058823529999996" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTU-W5-gvL">
+                                <rect key="frame" x="132" y="534.66666666666663" width="150" height="35"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.87058823529999996" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="GaT-SA-Vsy"/>
+                                    <constraint firstAttribute="height" constant="35" id="zre-b4-QxY"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change ">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnChageNamePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndI-0f-LYy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.19215686274509802" green="0.20784313725490194" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -39,9 +56,15 @@
                             <constraint firstItem="CCx-53-06y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1aG-h8-Hf2"/>
                             <constraint firstItem="CCx-53-06y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Ub-JP-mgf"/>
                             <constraint firstItem="pYV-zz-WAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QHX-sE-YyU"/>
+                            <constraint firstItem="gTU-W5-gvL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TSr-be-nNU"/>
                             <constraint firstItem="pYV-zz-WAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.3" id="bTR-ct-t6U"/>
+                            <constraint firstItem="gTU-W5-gvL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="mXm-qs-gmd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btmNameChange" destination="gTU-W5-gvL" id="Vvz-Rd-Cff"/>
+                        <outlet property="lblTitle" destination="pYV-zz-WAK" id="GGL-tl-qvc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
