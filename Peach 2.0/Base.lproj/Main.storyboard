@@ -236,7 +236,7 @@
     <resources>
         <image name="Peach Emoji" width="213.33332824707031" height="213.33332824707031"/>
         <image name="cucumber_1f952" width="53.333332061767578" height="53.333332061767578"/>
-        <image name="emojipng.com-4078703" width="112" height="140"/>
+        <image name="emojipng.com-4078703" width="112.33333587646484" height="140.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
